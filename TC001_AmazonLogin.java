@@ -22,6 +22,7 @@ public class TC001_AmazonLogin extends OpentapsWrappers {
 		dataSheetName="TC001_AmazonLogin";
 		category="Smoke";
 		authors="Tamil";
+		authors="Selvan";
 	}
 	@Test(dataProvider="fetchData")
 	public void Search(String searchItem, String sortValue, String zipCode){
